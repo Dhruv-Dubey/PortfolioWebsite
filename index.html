@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DhruvDubey</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>    <!--link for icons-->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">  <!--google fonts link-->
+</head>
+<body>
+    <a id="top"></a>
+    <br>
+    <a href="#top"><img src="./assets/logo_DD.png" id="logo"></a>       <!--logo-->
+    <br/>
+    <div id="navigation">                                               <!--navigation bar-->
+        <div class="button"><a href="#resume">Resume</a></div>
+        <div class="button"><a href="#projects">Projects</a></div>
+        <div class="button"><a href="#aboutFont">About Me</a></div>
+        <div class="button"><a href="#contactMe">Contact Me</a></div>
+    </div>
+    <div id="intro">                    <!--icons-->
+        <div id="iconline">
+            <a href="https://www.linkedin.com/in/dhruv-dubey-580603274/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAQ5JREFUSEvtl+0NwjAMRK+bwCawCUwCTAJMApvAJsCTYmRCKzWt+yGEJX4QwC93dtxQaaKoJuJqVuCFJF6Rcc2T1Sl+RBJTrrukpc+bg1eSLgOASbmW9FbeBsxuI6wvAp8kbRP4+NoxjnSNIrB3ZC9p15VaYjUWo9bqguLNGGAYwM8J1kdtp+bqIfLjp0U15suoJlCM1TTcIa3R7azznpJY99c1YhGYQ29gqzEQGo2gy7+mUsMpCAWblyi1Ddoa7rBZi3CwOZGfgnwKhoP9bPdlwIXbUIrz5Dbp4P3BoTX+PavbTC5/cWCY8GCx5vKfFVkdNafn+5DImyVSsZ/7tffqya63kSobc83qn8Qoip85LXgfMVIzngAAAABJRU5ErkJggg=="/></a>
+            <a href="https://github.com/Dhruv-Dubey"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa1JREFUSEvFlo1NAzEMRtNNYBOYBJgEmASYpHSSsgncQ/cdjuskboR0lqpCleT5c/yTQ9nJDjtxywz4rpRyszrM9+f691cphU/KsmAAzwvEQiMATjxlHMiA35aDHlMy/ha9l1Jeew70wKgEisoZI+z3LXgLDPQ8Qwv23EbwFvholCp5ssqVZFofKo/AL2siyXmShTvjIBLMZjJr+F+/faxZzlqcl3HfnLuZB0ch5p6kOhv96Jwq5B7s1QL6LzBRI3q/5sHfThL3g6czRnKq0Wj/ptqCo/Bc3M0VHnSjZ8E+IWbDLN+i85SoVajpTjQMa2ENJlVHEUyDZxJLfnWvbhTqzcOkSrssfcds8lmdnjaBY7b7XVSRL6eoBGYyO8qXqjR7DYSFqsPhmDOKW2O0EhD1aqnWQOcgOUDo6cc4Yg2F6uOtdKhYoyFBOXHog4FHCTcao8MhIW+lGoWUlH3yeLV+j1cctt3eC0RwvAU2eshFidns9aM3lz1MA54IRObB3QEzAgOwidM7zIKHJZgBS536+DZTnWwaxmn5rXpppFJ8oi1Ob7lG8TQk2rgb+AfWnmsfmQKnwwAAAABJRU5ErkJggg=="/></a>
+            <a href="https://www.instagram.com/dhruvdubey.dd?igsh=MWpzamFyZmZuemU4dQ=="><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcBJREFUSEvllk1OxDAMhT03gZMABwEBFwFOws9F+NmyZQ+cBPqN/JBJnTZtFhUi0qgznfg9+9lxvLON1m4jXvsTxAdmxmduPc1t4P+5iK/N7MjMjlvAfM+HP++HJ/bpqhFDdBsiFJieU35EJ9l/YmYjuxrxu5Mi280QcZN87o3SgeM4Aelh6WlGjMG5k+Ht0nXqKXxx1SC/M7OLCJQRK1q8bJE24kH64C8gwv4xizoj/nLDWhqQEkUoOoA/PSK+nw2yUlSsSyclkJHcJTigbCSnmcxU6VWiPcCqYpwC983MXh0PXPB+aqUkJh9IkxFHUgpOaSByyFi8L48QeOCuIpYSgP8CcEI5jDPkNp6CLmJFO6rOILtOQxl1F7FAiQbybNXS1EWcGhfs5BkHS1W6iDeTOhZXJrdkzoqvK2IAJSXfkfM59Gad7ew4qRNOHqepBqKOlTWQ2hnmfdqCa50rvVFChEhL48AZIkeBWl9PW3DWj1squPXGUnpmezWAquBav24lZZ+CaLoWkQ8DnmsGAQixXTwIyFDk/O4ZfcrevVdsatiL9+6SYU+Orhr2yjy2jrbYNc1nc+PtkkJatPf/EX8DIXGOHzTONr8AAAAASUVORK5CYII="/></a>
+            <a href="mailto:dhruv.dd.dubey@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATxJREFUSEvtltENwjAMRK+bwCYwCTAJMAkwCWwCmwAP4SpYoaZpBB/UP62a9M53ttM2+lE0P+LVSPw1573VM0lrSVxrxknSQdLeQFPiiaRzTbYM1lTShecp8eaplufbygngIrEy1V3EJFIjvKAH7jti1qgHyh/WFMbR9Qt4ITFckM4LyOmXXaZJQ2LULhOVbW0+UM5EoNSCjrYpCYkpAZYs7paTvTUcCXVZj8o0YSO6JhidVlvtyRQwIyd71Htyby3r7GM/0ZuYlwDFOiP3oDlrfXJFxFarnI2s2YxaOXJjOIgYYF/3tNfofrPW9+BgYgB93b31ucavQpxazz31jKIqcUSWro/ELx8JThxGxsaij5XRXhu57JHpD4oIrGS9/Rr6Xx9Uk52dUiXguXeYb9S2cz7+3tayNsT5P6tvJEpbH0Ww25AAAAAASUVORK5CYII="/></a>
+        </div>
+        <img src="./assets/WhatsApp Image 2024-02-04 at 22.54.44_bf4ffcbe.jpg" id="pp" />   <!--profile pic-->
+        
+        <p style="margin-left:70px;">
+            <span id="hello">Hello!</span><br>
+           I am <span style="font-size:larger;">Dhruv Dubey</span>. An enthusiastic Software Developer.
+        </p>
+    </div>
+    <div>
+        <button onclick="modeChange()" id="theme">Light/Dark</button>       <!--Theme switch button-->
+    </div>
+    <br>
+    <hr>
+<div id="container">
+    <div id="resume">           <!--Resume-->
+        
+        <h1>My Resume</h1>      
+        <br><br>
+        <img src="./assets/Resume.png" height="500px" id="res">
+        <br>
+        <br>
+        <a href="./assets/Resume-Dhruv-Dubey (2).pdf" download="DhruvDubeyResume"> Download My Resume. Click here!</a>
+    </div >
+  
+     <a id="projects"></a>
+    
+    <div align="center">        <!--projects-->
+        <h1 id="diffFont">My Different Projects</h1>
+        <br>
+        <div class="card">
+            <img src="./assets/typing test.png" alt="speedy Typo logo" height="150px" style="margin-top: 10px;">
+            <div class="container">
+              <h4><b><a href="">SpeedyTypo</a></b></h4>
+              <p>  <ul>
+                <li>A website to check your typing speed in 30sec.</li>
+                <li>Has many different paragraphs to type.</li>
+            </ul></p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+
+          <div class="card">
+            <img src="./assets/Arcane.jpg" alt="arcane logo" height="150px" style="margin-top:10px">
+            <div class="container">
+              <h4><b><a href="">Arcane</a></b></h4>
+              <p> <ul>
+                <li>A website to play music</li>
+                <li>Made with collaboration of 4 people</li>
+            </ul></p>
+            </div>
+          </div>
+    </div>
+
+</div>
+    <br>
+    <hr>
+    <div>
+     <!--abou me page-->
+        <h1 align="center" id="aboutFont">About Me!</h1>
+        <div id="mePage" style="position:relative;">
+            <img src="./assets/Screenshot 2024-04-18 110624.png" style="z-index:-1; position:absolute; top:-183px; opacity:0.5;"> <!--background image for about me-->
+           
+            <div ><p>Hello there! I'm Dhruv, currently on a journey towards a Bachelor's degree in Computer Science and Engineering at VIT Vellore. Ever since I laid my hands on a computer, I've been captivated by the endless possibilities of technology. My passion lies at the intersection of coding, web development, and the world of literature.<br><br>
+
+            As a fervent believer in the power of code to shape the future, I spend my days immersed in the world of algorithms and programming languages, constantly seeking to enhance my skills and solve complex problems. From crafting elegant websites to developing efficient algorithms, I thrive on the creative challenge that coding presents.<br><br>
+            
+            Beyond the realm of technology, I find solace in the pages of books. Whether it's exploring the depths of fiction or delving into the wisdom of non-fiction, I'm always eager to expand my horizons and glean insights from the written word.
+            
+            This portfolio is a reflection of my journey so far, showcasing my projects, skills, and experiences. Join me as I continue to push the boundaries of what's possible and leave a mark in the ever-evolving landscape of technology.</p>
+            </div>
+        
+        </div>
+        
+    </div>
+    <br>
+    <br.>
+<br><br>
+<hr>
+    <hr>
+    <a id="contactMe"></a>  <!--contact section-->
+    <h1><u>Contact Me</u></h1>
+<h3>Tel: +91 6393681370</h3>
+<h3>Email: <a href="mailto:dhruv.dd.dubey@gmail.com">dhruv.dd.dubey@gmail.com</a></h3>
+<h3>LinkedIn: <a href="https://www.linkedin.com/in/dhruv-dubey-580603274/">My Profile</a></h3>
+<br>
+<br>
+</p></h3>
+<!--javascript for theme change-->
+<script>        
+    function modeChange(){
+        var element=document.body;
+        element.classList.toggle("dark-mode");
+    }
+
+</script>
+</body>
+</html>
